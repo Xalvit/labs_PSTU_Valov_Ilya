@@ -1,12 +1,13 @@
 
 #include <iostream>
-
-using namespace std;
+#include <vector>
+#include "yard.h"
 
 int main()
 {
     
-    std::cout << "Hello, World!";
+    parser parse("100*10+2*(5+5)+47-1000");
+    std::cout << parse.getParsed();
     return 0;
 
 }
