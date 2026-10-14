@@ -4,7 +4,7 @@ int main()
 {
     setlocale(LC_ALL,"ru");
     float a,b,c,d,e,f,g,h,i,j,k,l;
-    long double m,n,o,p,q,r,s,t,u,v,w,x;
+    double m,n,o,p,q,r,s,t,u,v,w,x;
     a = 1000.f;
     b = 0.0001f;
     
