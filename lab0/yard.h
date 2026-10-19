@@ -209,12 +209,12 @@ public:
     {
         this->math = math;
         this->clearString(this->math);
-        this->parse();
+        this->answer = this->parse();
     }
 
     double getParsed()
     {
-        return this->parse();
+        return this->answer;
     }
 
 };

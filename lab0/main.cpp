@@ -6,7 +6,7 @@
 int main()
 {
     
-    parser parse("100*10+2*(5+5)+47-1000");
+    parser parse("100*2-4+9");
     std::cout << parse.getParsed();
     return 0;
 
