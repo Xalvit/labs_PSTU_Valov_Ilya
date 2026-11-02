@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1990" height="2527" viewBox="0 0 1990 2527">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#111111" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff" />
+<rect x="371.0" y="40.0" width="102.4" height="44.0" rx="22.0" ry="22.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="66.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">начало</text>
+  <line x1="422.2" y1="84.0" x2="422.2" y2="148.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="422.2" y1="116.0" x2="487.2" y2="116.0" stroke="#111111" stroke-width="1.8" stroke-dasharray="6,4" />
+  <line x1="487.2" y1="90.0" x2="487.2" y2="142.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="487.2" y1="90.0" x2="497.2" y2="90.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="487.2" y1="142.0" x2="497.2" y2="142.0" stroke="#111111" stroke-width="1.8" />
+  <text x="503.2" y="110.9" text-anchor="start" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">#include &lt;iostream&gt;</text>
+  <text x="503.2" y="130.9" text-anchor="start" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">#include &lt;cmath&gt;</text>
+  <rect x="352.2" y="148.0" width="140.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <line x1="362.2" y1="148.0" x2="362.2" y2="192.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="482.2" y1="148.0" x2="482.2" y2="192.0" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="174.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">int main()</text>
+  <line x1="422.2" y1="192.0" x2="422.2" y2="230.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="406.2" y="212.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="379.0" y="230.0" width="86.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="256.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">int n;</text>
+  <line x1="422.2" y1="274.0" x2="422.2" y2="312.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="85.0" y="312.0" width="674.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="338.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">int min = 1000000,minID,counterMin = 0,max = -INFINITY,maxID,counterMax = 0;</text>
+  <line x1="202.62" y1="329.18" x2="196.58" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="211.02" y1="329.18" x2="204.98" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="219.42" y1="329.18" x2="213.38" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="227.82" y1="329.18" x2="221.78" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="236.22" y1="329.18" x2="230.18" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="244.62" y1="329.18" x2="238.58" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="421.02" y1="329.18" x2="414.98" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="731.82" y1="329.18" x2="725.78" y2="339.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="422.2" y1="356.0" x2="422.2" y2="394.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="345.4,394.0 527.0,394.0 499.0,438.0 317.4,438.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="420.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">std::cin &gt;&gt; n;</text>
+  <line x1="422.2" y1="438.0" x2="422.2" y2="476.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="324.4" y="476.0" width="195.6" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="502.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">const int SIZE = n;</text>
+  <line x1="422.2" y1="520.0" x2="422.2" y2="558.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="337.0" y="558.0" width="170.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="584.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">int array[SIZE];</text>
+  <line x1="422.2" y1="602.0" x2="422.2" y2="640.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="273.9,663.0 299.2,640.0 545.2,640.0 570.5,663.0 545.2,686.0 299.2,686.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="667.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">for(int i = 0; i &lt; n;i++)</text>
+  <line x1="425.22" y1="658.18" x2="419.18" y2="668.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="422.2" y1="686.0" x2="422.2" y2="724.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="426.0" y="691.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="434.2" y="706.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <text x="406.2" y="714.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="366.4" y="724.0" width="111.6" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="750.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">int temp;</text>
+  <line x1="422.2" y1="768.0" x2="422.2" y2="806.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="332.8,806.0 539.6,806.0 511.6,850.0 304.8,850.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="832.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">std::cin &gt;&gt; temp;</text>
+  <line x1="422.2" y1="850.0" x2="422.2" y2="888.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="337.0" y="888.0" width="170.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="422.2" y="914.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">array[i] = temp;</text>
+  <text x="438.2" y="950.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="422.2" y1="932.0" x2="422.2" y2="956.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="422.2" y1="956.0" x2="233.9" y2="956.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="233.9" y1="956.0" x2="233.9" y2="663.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="233.9" y1="663.0" x2="273.9" y2="663.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="570.5" y1="663.0" x2="624.5" y2="663.0" stroke="#111111" stroke-width="1.8" />
+  <rect x="586.3" y="641.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="594.5" y="656.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="597.52" y1="647.18" x2="591.48" y2="657.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="624.5" y1="663.0" x2="624.5" y2="966.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="624.5" y1="966.0" x2="624.5" y2="1004.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="459.4,1027.0 484.7,1004.0 764.3,1004.0 789.6,1027.0 764.3,1050.0 484.7,1050.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="624.5" y="1031.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">for(int i = 0; i &lt; SIZE; i++)</text>
+  <line x1="610.72" y1="1022.18" x2="604.68" y2="1032.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="624.5" y1="1050.0" x2="624.5" y2="1088.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="628.3" y="1055.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="636.5" y="1070.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <text x="608.5" y="1078.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <polygon points="624.5,1088.0 817.7,1123.6 624.5,1159.2 431.3,1123.6" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="624.5" y="1128.5" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">if ( array[i] &gt; max)</text>
+  <line x1="431.3" y1="1123.6" x2="383.3" y2="1123.6" stroke="#111111" stroke-width="1.8" />
+  <rect x="399.1" y="1101.6" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="407.3" y="1117.5" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <line x1="817.7" y1="1123.6" x2="865.7" y2="1123.6" stroke="#111111" stroke-width="1.8" />
+  <rect x="833.5" y="1101.6" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="841.7" y="1117.5" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="844.72" y1="1107.78" x2="838.68" y2="1118.42" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="383.3" y1="1123.6" x2="383.3" y2="1197.2" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="367.3" y="1187.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="302.3" y="1197.2" width="162.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="383.3" y="1224.1" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">max = array[i];</text>
+  <line x1="383.3" y1="1241.2" x2="383.3" y2="1279.2" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="323.3" y="1279.2" width="120.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="383.3" y="1306.1" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">maxID = i;</text>
+  <text x="399.3" y="1341.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="383.3" y1="1323.2" x2="383.3" y2="1361.2" stroke="#111111" stroke-width="1.8" />
+  <line x1="865.7" y1="1123.6" x2="865.7" y2="1361.2" stroke="#111111" stroke-width="1.8" />
+  <line x1="383.3" y1="1361.2" x2="622.5" y2="1361.2" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="865.7" y1="1361.2" x2="626.5" y2="1361.2" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <circle cx="624.5" cy="1361.2" r="2.2" fill="#111111" />
+  <line x1="624.5" y1="1361.2" x2="624.5" y2="1399.2" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="624.5,1399.2 809.3,1434.8 624.5,1470.4 439.7,1434.8" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="624.5" y="1439.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">if (array[i] &lt; min)</text>
+  <line x1="439.7" y1="1434.8" x2="391.7" y2="1434.8" stroke="#111111" stroke-width="1.8" />
+  <rect x="407.5" y="1412.8" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="415.7" y="1428.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <line x1="809.3" y1="1434.8" x2="857.3" y2="1434.8" stroke="#111111" stroke-width="1.8" />
+  <rect x="825.1" y="1412.8" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="833.3" y="1428.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="836.32" y1="1418.98" x2="830.28" y2="1429.62" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="391.7" y1="1434.8" x2="391.7" y2="1508.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="375.7" y="1498.4" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="310.7" y="1508.4" width="162.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="391.7" y="1535.3" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">min = array[i];</text>
+  <line x1="391.7" y1="1552.4" x2="391.7" y2="1590.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="331.7" y="1590.4" width="120.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="391.7" y="1617.3" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">minID = i;</text>
+  <text x="407.7" y="1652.4" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="391.7" y1="1634.4" x2="391.7" y2="1672.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="857.3" y1="1434.8" x2="857.3" y2="1672.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="391.7" y1="1672.4" x2="622.5" y2="1672.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="857.3" y1="1672.4" x2="626.5" y2="1672.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <circle cx="624.5" cy="1672.4" r="2.2" fill="#111111" />
+  <text x="640.5" y="1690.4" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="624.5" y1="1672.4" x2="624.5" y2="1696.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="624.5" y1="1696.4" x2="249.3" y2="1696.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="249.3" y1="1696.4" x2="249.3" y2="1027.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="249.3" y1="1027.0" x2="459.4" y2="1027.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="789.6" y1="1027.0" x2="933.7" y2="1027.0" stroke="#111111" stroke-width="1.8" />
+  <rect x="805.4" y="1005.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="813.6" y="1020.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="816.62" y1="1011.18" x2="810.58" y2="1021.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="933.7" y1="1027.0" x2="933.7" y2="1706.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="933.7" y1="1706.4" x2="933.7" y2="1744.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="806.4,1767.4 831.7,1744.4 1035.7,1744.4 1061.0,1767.4 1035.7,1790.4 831.7,1790.4" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="933.7" y="1772.3" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">for(auto&amp; r : array)</text>
+  <line x1="933.7" y1="1790.4" x2="933.7" y2="1828.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="937.5" y="1795.4" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="945.7" y="1811.3" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <text x="917.7" y="1818.4" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <polygon points="933.7,1828.4 1059.7,1864.0 933.7,1899.6 807.7,1864.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="933.7" y="1868.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">if(r == max)</text>
+  <line x1="807.7" y1="1864.0" x2="759.7" y2="1864.0" stroke="#111111" stroke-width="1.8" />
+  <rect x="775.5" y="1842.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="783.7" y="1857.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <line x1="1059.7" y1="1864.0" x2="1107.7" y2="1864.0" stroke="#111111" stroke-width="1.8" />
+  <rect x="1075.5" y="1842.0" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="1083.7" y="1857.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="1086.72" y1="1848.18" x2="1080.68" y2="1858.82" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="759.7" y1="1864.0" x2="759.7" y2="1937.6" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="674.5" y="1937.6" width="170.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="759.7" y="1964.5" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">counterMax += 1;</text>
+  <line x1="759.7" y1="1981.6" x2="759.7" y2="2019.6" stroke="#111111" stroke-width="1.8" />
+  <line x1="1107.7" y1="1864.0" x2="1107.7" y2="2019.6" stroke="#111111" stroke-width="1.8" />
+  <line x1="759.7" y1="2019.6" x2="931.7" y2="2019.6" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="1107.7" y1="2019.6" x2="935.7" y2="2019.6" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <circle cx="933.7" cy="2019.6" r="2.2" fill="#111111" />
+  <line x1="933.7" y1="2019.6" x2="933.7" y2="2057.6" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="933.7,2057.6 1059.7,2093.2 933.7,2128.8 807.7,2093.2" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="933.7" y="2098.1" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">if(r == min)</text>
+  <line x1="807.7" y1="2093.2" x2="759.7" y2="2093.2" stroke="#111111" stroke-width="1.8" />
+  <rect x="775.5" y="2071.2" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="783.7" y="2087.1" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">1</text>
+  <line x1="1059.7" y1="2093.2" x2="1107.7" y2="2093.2" stroke="#111111" stroke-width="1.8" />
+  <rect x="1075.5" y="2071.2" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="1083.7" y="2087.1" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="1086.72" y1="2077.38" x2="1080.68" y2="2088.02" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="759.7" y1="2093.2" x2="759.7" y2="2166.8" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="674.5" y="2166.8" width="170.4" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="759.7" y="2193.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">counterMin += 1;</text>
+  <line x1="759.7" y1="2210.8" x2="759.7" y2="2248.8" stroke="#111111" stroke-width="1.8" />
+  <line x1="1107.7" y1="2093.2" x2="1107.7" y2="2248.8" stroke="#111111" stroke-width="1.8" />
+  <line x1="759.7" y1="2248.8" x2="931.7" y2="2248.8" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="1107.7" y1="2248.8" x2="935.7" y2="2248.8" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <circle cx="933.7" cy="2248.8" r="2.2" fill="#111111" />
+  <text x="949.7" y="2266.8" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="933.7" y1="2248.8" x2="933.7" y2="2272.8" stroke="#111111" stroke-width="1.8" />
+  <line x1="933.7" y1="2272.8" x2="621.5" y2="2272.8" stroke="#111111" stroke-width="1.8" />
+  <line x1="621.5" y1="2272.8" x2="621.5" y2="1767.4" stroke="#111111" stroke-width="1.8" />
+  <line x1="621.5" y1="1767.4" x2="806.4" y2="1767.4" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="1061.0" y1="1767.4" x2="1175.7" y2="1767.4" stroke="#111111" stroke-width="1.8" />
+  <rect x="1076.8" y="1745.4" width="16.4" height="22.0" fill="#ffffff" />
+  <text x="1085.0" y="1761.3" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">0</text>
+  <line x1="1088.02" y1="1751.58" x2="1081.98" y2="1762.22" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="1175.7" y1="1767.4" x2="1175.7" y2="2282.8" stroke="#111111" stroke-width="1.8" />
+  <line x1="1175.7" y1="2282.8" x2="1175.7" y2="2320.8" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="485.7,2320.8 1893.7,2320.8 1865.7,2364.8 457.7,2364.8" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="1175.7" y="2347.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">std::cout &lt;&lt; &quot;max: &quot; &lt;&lt; max &lt;&lt; &quot; maxID: &quot; &lt;&lt; maxID &lt;&lt; &quot; maxCounter: &quot; &lt;&lt; counterMax &lt;&lt; &quot;\nmin: &quot; &lt;&lt; min &lt;&lt; &quot; minID: &quot; &lt;&lt; minID &lt;&lt; &quot; minCounter: &quot; &lt;&lt; counterMin;</text>
+  <line x1="1175.7" y1="2364.8" x2="1175.7" y2="2402.8" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="1111.9" y="2402.8" width="127.6" height="44.0" rx="22.0" ry="22.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="1175.7" y="2429.7" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="14" fill="#111111" xml:space="preserve">return 0;</text>
+  <line x1="1203.92" y1="2419.98" x2="1197.88" y2="2430.62" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <text x="1193.7" y="2464.8" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+</svg>
