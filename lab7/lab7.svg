@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width: 590px; height: auto;" viewBox="0 0 590 1418">
+    <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#111111" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff" />
+<rect x="175.4" y="40.0" width="83.2" height="44.0" rx="22.0" ry="22.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="66.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">начало</text>
+  <line x1="217.0" y1="84.0" x2="217.0" y2="148.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <line x1="217.0" y1="116.0" x2="282.0" y2="116.0" stroke="#111111" stroke-width="1.8" stroke-dasharray="6,4" />
+  <line x1="282.0" y1="90.0" x2="282.0" y2="142.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="282.0" y1="90.0" x2="292.0" y2="90.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="282.0" y1="142.0" x2="292.0" y2="142.0" stroke="#111111" stroke-width="1.8" />
+  <text x="298.0" y="110.2" text-anchor="start" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">#include &lt;iostream&gt;</text>
+  <text x="298.0" y="130.2" text-anchor="start" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">#include &lt;complex&gt;</text>
+  <rect x="105.0" y="148.0" width="224.0" height="84.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <line x1="115.0" y1="148.0" x2="115.0" y2="232.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="319.0" y1="148.0" x2="319.0" y2="232.0" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="174.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::complex&lt;double&gt;</text>
+  <text x="217.0" y="194.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">mult(std::complex&lt;double&gt;</text>
+  <text x="217.0" y="214.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">a,std::complex&lt;double&gt; b)</text>
+  <line x1="217.0" y1="232.0" x2="217.0" y2="270.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="201.0" y="252.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="165.4" y="270.0" width="103.2" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="296.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">return a*b;</text>
+  <text x="235.0" y="332.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="217.0" y1="334.0" x2="217.0" y2="372.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="119.4" y="372.0" width="195.2" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <line x1="129.4" y1="372.0" x2="129.4" y2="416.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="304.6" y1="372.0" x2="304.6" y2="416.0" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="398.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">int mult(int a,int b)</text>
+  <line x1="217.0" y1="416.0" x2="217.0" y2="454.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="201.0" y="436.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="165.4" y="454.0" width="103.2" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="480.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">return a*b;</text>
+  <text x="235.0" y="516.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+  <line x1="217.0" y1="518.0" x2="217.0" y2="556.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="159.0" y="556.0" width="116.0" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <line x1="169.0" y1="556.0" x2="169.0" y2="600.0" stroke="#111111" stroke-width="1.8" />
+  <line x1="265.0" y1="556.0" x2="265.0" y2="600.0" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="582.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">int main()</text>
+  <line x1="217.0" y1="600.0" x2="217.0" y2="638.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="201.0" y="620.9" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">{</text>
+  <rect x="122.2" y="638.0" width="189.6" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="664.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::complex&lt;double&gt; a;</text>
+  <line x1="217.0" y1="682.0" x2="217.0" y2="720.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="122.2" y="720.0" width="189.6" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="746.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::complex&lt;double&gt; b;</text>
+  <line x1="217.0" y1="764.0" x2="217.0" y2="802.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="176.2" y="802.0" width="81.6" height="44.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="828.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">int c,d;</text>
+  <line x1="217.0" y1="846.0" x2="217.0" y2="884.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="136.6,884.0 325.4,884.0 297.4,928.0 108.6,928.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="910.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::cin &gt;&gt; a &gt;&gt; b;</text>
+  <line x1="217.0" y1="928.0" x2="217.0" y2="966.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="122.2,966.0 339.8,966.0 311.8,1010.0 94.2,1010.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="992.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::cout &lt;&lt; mult(a,b);</text>
+  <line x1="217.0" y1="1010.0" x2="217.0" y2="1048.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="122.2,1048.0 339.8,1048.0 311.8,1092.0 94.2,1092.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="1074.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::cout &lt;&lt; std::endl;</text>
+  <line x1="217.0" y1="1092.0" x2="217.0" y2="1130.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="136.6,1130.0 325.4,1130.0 297.4,1174.0 108.6,1174.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="1156.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::cin &gt;&gt; c &gt;&gt; d;</text>
+  <line x1="217.0" y1="1174.0" x2="217.0" y2="1212.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <polygon points="122.2,1212.0 339.8,1212.0 311.8,1256.0 94.2,1256.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="1238.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">std::cout &lt;&lt; mult(c,d);</text>
+  <line x1="217.0" y1="1256.0" x2="217.0" y2="1294.0" stroke="#111111" stroke-width="1.8" marker-end="url(#arrow)" />
+  <rect x="164.6" y="1294.0" width="104.8" height="44.0" rx="22.0" ry="22.0" fill="#ffffff" stroke="#111111" stroke-width="1.8" />
+  <text x="217.0" y="1320.2" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="12" fill="#111111" xml:space="preserve">return 0;</text>
+  <line x1="241.19" y1="1311.94" x2="236.01" y2="1321.06" stroke="#111111" stroke-width="1.5" stroke-linecap="round" />
+  <text x="235.0" y="1356.0" text-anchor="middle" font-family="Courier New, Liberation Mono, monospace" font-size="20" font-weight="bold" fill="#111111">}</text>
+</svg>
