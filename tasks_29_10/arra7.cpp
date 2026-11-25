@@ -1,5 +1,5 @@
 #include <iostream>
-
+// выбирает НАИБОЛЬШЕЕ ВПРАВО, ЭЛЕМЕНТ БОЛЬШЕ НЕ ТРОГАЕТСЯ, ПРОВЕРЯЕТСЯ НА 1 ЭЛЕМЕНТ МЕНЬШЕ
 int main()
 {
     srand(time(NULL));
@@ -12,9 +12,9 @@ int main()
     }
     std::cout << std::endl;
 
-    for (int i = 0; i < 7 - 1; i++) 
+    for (int i = 0; i < 6; i++) 
     {
-        for (int j = 0; j < 7 - 1 - i; j++) 
+        for (int j = 0; j < 6 - i; j++) 
         {
             if (arr[j] > arr[j + 1]) 
             {

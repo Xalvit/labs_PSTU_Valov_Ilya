@@ -14,18 +14,17 @@ int main()
 
     int n = 7;
 
-    for (int i = 0; i < n - 1; i++) {
-        int minIndex = i;
-
-        for (int j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
+    for (int i = 0;i < 7;i++)
+    {
+        for (int j = 0; j < i;j++)
+        {
+            if (arr[j] > arr[i])
+            {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
-
-        int temp = arr[i];
-        arr[i] = arr[minIndex];
-        arr[minIndex] = temp;
     }
 
     for (int i = 0; i < 7; i++)

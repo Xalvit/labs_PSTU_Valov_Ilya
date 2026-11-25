@@ -15,11 +15,11 @@ int main()
     for(auto & r : v)
     {
         std::cout << "Price: ";
-        std::cin >> v->price;
+        std::cin >> r.price;
         std::cout << "Floor: ";
-        std::cin >> v->floor;
+        std::cin >> r.floor;
         std::cout << "Street: ";
-        std::cin >> v->street;
+        std::cin >> r.street;
         std::cout << "\n-------\n";
     }
 
@@ -29,9 +29,10 @@ int main()
 
     for(auto& r : v)
     {
-        if (v->price <= t_price)
+        if (r.price <= t_price)
         {
-            std::cout << "Good choice: price: " << v->price << " floor: " << v->floor << " street: " << v->street; 
+            std::cout << "Good choice:\n price: " << r.price << " floor: " << r.floor << " street: " << r.street;
+            std::cout << std::endl; 
         }
     }
 
